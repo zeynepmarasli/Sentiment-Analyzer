@@ -16,6 +16,7 @@
                 - Combination of NRC Emotion Lexicon, NRC Emotion Affect Intensity Lexicon, and the Opinion Lexicon (NLTK)
                 - Sources: Crowdsourcing a Word-Emotion Association Lexicon, Saif Mohammad and Peter Turney, Computational Intelligence, 29 (3), 436-465,                                   2013
                            Word Affect Intensities. Saif M. Mohammad. In Proceedings of the 11th Edition of the Language Resources and Evaluation                                           Conference (LREC-2018), May 2018, Miyazaki, Japan.
+                                Download here: https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm 
                            Hu and Liu, KDD-2004
                 
     - output: 
