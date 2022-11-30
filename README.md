@@ -6,12 +6,18 @@
         - Negation --> tf-idf matrix
         - Pos:Neg words ratio
         - Length of review
-        - # of Noun phrases
+        - number of Noun phrases
      - Forms & exports feature dataframe & exports 
         
     - input: 
         - Movie reviews dataset ==> src/Data/review_polarity/txt_sentoken
+                - Source: Pang, B., Lee, L., & Vaithyanathan, S. (2002). Thumbs up? Sentiment classification using machine learning techniques. arXiv                                       preprint cs/0205070.
         - sentiment lexicon ==> src/Data/sentiment_lexicon.csv 
+                - Combination of NRC Emotion Lexicon, NRC Emotion Affect Intensity Lexicon, and the Opinion Lexicon (NLTK)
+                - Sources: Crowdsourcing a Word-Emotion Association Lexicon, Saif Mohammad and Peter Turney, Computational Intelligence, 29 (3), 436-465,                                   2013
+                           Word Affect Intensities. Saif M. Mohammad. In Proceedings of the 11th Edition of the Language Resources and Evaluation                                           Conference (LREC-2018), May 2018, Miyazaki, Japan.
+                           Hu and Liu, KDD-2004
+                
     - output: 
         - feature dataframe ==> src/Data/data.csv 
     **NOTE: I do not recommend running this file as it takes a while to run, and instead I recommend using the pre-existing data.csv file 
